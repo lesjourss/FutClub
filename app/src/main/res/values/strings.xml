@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FutClub</string>
+
+    <!-- PENTING: ganti base_url ini sesuai kondisi testing kamu.
+         - Emulator Android Studio -> http://10.0.2.2/futclub-backend/api/
+         - HP fisik (WiFi sama)    -> http://IP_LAPTOP_KAMU/futclub-backend/api/
+         - Hosting online          -> https://domainkamu.com/api/
+
+         Kamu testing pakai HP fisik, jadi:
+         1. Cari IP laptop kamu (Windows: cmd -> ipconfig, cari "IPv4 Address" di adapter WiFi)
+         2. Ganti "192.168.1.X" di bawah dengan IP laptop kamu yang asli
+         3. Pastikan HP & laptop nyambung ke WiFi yang SAMA
+         4. Pastikan XAMPP/Laragon Apache-nya lagi jalan (Start)
+         5. Kalau masih gagal, cek Windows Firewall — izinkan Apache/port 8080 nerima koneksi masuk -->
+    <string name="base_url">http://192.168.1.X:8080/futclub-backend/api/</string>
+
+    <!-- Ganti dengan Web Client ID dari Firebase Console -> Authentication -> Sign-in method -> Google -->
+    <string name="default_web_client_id">637277868777-m9t3c3nchf2c7b8fi8qignf92ibrdnjh.apps.googleusercontent.com</string>
+</resources>

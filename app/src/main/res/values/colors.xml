@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warna utama -->
+    <color name="green_primary">#1FAA59</color>
+    <color name="green_dark">#158A45</color>
+    <color name="green_light">#E7F7EE</color>
+    <color name="green_accent">#22C55E</color>
+
+    <!-- Netral / clean white theme -->
+    <color name="white">#FFFFFF</color>
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#7A7A7A</color>
+    <color name="divider">#EDEDED</color>
+    <color name="error">#E53935</color>
+
+    <!-- Glass bottom nav -->
+    <color name="glass_bg">#E6FFFFFF</color>
+    <color name="glass_border">#331A1A1A</color>
+</resources>

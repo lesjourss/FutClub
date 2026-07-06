@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Wajib untuk akses REST API -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_icon"
+        android:label="FutClub"
+        android:roundIcon="@drawable/ic_launcher_icon"
+        android:theme="@style/Theme.FutClub"
+        android:usesCleartextTraffic="true">
+        <!-- usesCleartextTraffic="true" supaya bisa akses http://10.0.2.2 (XAMPP lokal, bukan https) -->
+
+        <activity
+            android:name=".ui.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.CategorySelectionActivity" android:exported="false" />
+        <activity android:name=".ui.RoleSelectionActivity" android:exported="false" />
+        <activity android:name=".ui.CreateCommunityActivity" android:exported="false" />
+        <activity android:name=".ui.MainActivity" android:exported="false" />
+        <activity android:name=".ui.CommunityDetailActivity" android:exported="false" />
+        <activity android:name=".ui.EditCommunityActivity" android:exported="false" />
+        <activity android:name=".ui.ProfileActivity" android:exported="false" />
+
+    </application>
+</manifest>

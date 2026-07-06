@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "637277868777",
+    "project_id": "futclub-3f92a",
+    "storage_bucket": "futclub-3f92a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637277868777:android:279152d95e14079e2cd678",
+        "android_client_info": {
+          "package_name": "com.futclub.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637277868777-3p333cgfq6q5d163fvbpce3q9bh48rlr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.futclub.app",
+            "certificate_hash": "01bc81f90ae19af5d7e616d9074c1b06e66e3a3e"
+          }
+        },
+        {
+          "client_id": "637277868777-m9t3c3nchf2c7b8fi8qignf92ibrdnjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvyd0WC6raPTGJtzJakoBDnLI_epJJAks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637277868777-m9t3c3nchf2c7b8fi8qignf92ibrdnjh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
