@@ -2,6 +2,14 @@
 
 > Aplikasi Android untuk menemukan dan bergabung dengan komunitas olahraga lokal.
 
+**Anggota Kelompok:**
+- 2411501865 - Zahfandhika Fauzan Maldini
+- 2411501642 - R. Ezra Rahmaditya
+
+## Cara Buka Project
+1. Buka Android Studio → **Open** → pilih folder `FutClub` ini.
+2. Tunggu Gradle sync selesai (pertama kali agak lama karena download dependency).
+
 ---
 
 ## a. Deskripsi Aplikasi
@@ -40,6 +48,7 @@ FutClub hadir sebagai platform mobile yang menghubungkan para pecinta olahraga d
 
 ---
 
+<<<<<<< HEAD
 ## c. Activity
 
 | Activity | Fungsi |
