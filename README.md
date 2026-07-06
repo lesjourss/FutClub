@@ -2,6 +2,9 @@
 
 Aplikasi komunitas olahraga untuk UAS Mobile Programming (PG119) - Kelompok AL.
 
+2411501865 - Zahfandhika Fauzan Maldini
+2411501642 - R. Ezra Rahmaditya
+
 ## Cara Buka Project
 1. Buka Android Studio → **Open** → pilih folder `FutClub` ini.
 2. Tunggu Gradle sync selesai (pertama kali agak lama karena download dependency).
@@ -73,10 +76,6 @@ CircleImageView, RecyclerView, CardView, SwipeRefreshLayout, BottomNavigationVie
 - **Glide** - load gambar dari URL (foto profil, foto komunitas, galeri) dengan cache otomatis
 - **Firebase Auth + Google Sign-In** - fitur bonus login Google
 - **CircleImageView** - menampilkan foto profil berbentuk bulat
-
-## Catatan Penting
-- Semua data (user, komunitas, member, galeri) 100% disimpan & diambil dari **MySQL via REST API**,
-  TIDAK ada SQLite/Room, sesuai larangan di soal UAS.
 - `SharedPreferences` (lewat class `SessionManager`) hanya dipakai untuk menyimpan status login
   (siapa yang sedang login) di HP, bukan sebagai database aplikasi.
 - Upload foto saat ini masih berupa input URL manual (misal dari Google Drive/Imgur/ImgBB).
