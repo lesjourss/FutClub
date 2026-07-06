@@ -2,7 +2,7 @@
 
 Aplikasi komunitas olahraga untuk UAS Mobile Programming (PG119) - Kelompok AL.
 
-2411501865 - Zahfandhika Fauzan Maldini
+2411501865 - Zahfandhika Fauzan Maldini <br/>
 2411501642 - R. Ezra Rahmaditya
 
 ## Cara Buka Project
