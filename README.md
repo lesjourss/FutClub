@@ -79,4 +79,3 @@ CircleImageView, RecyclerView, CardView, SwipeRefreshLayout, BottomNavigationVie
 - `SharedPreferences` (lewat class `SessionManager`) hanya dipakai untuk menyimpan status login
   (siapa yang sedang login) di HP, bukan sebagai database aplikasi.
 - Upload foto saat ini masih berupa input URL manual (misal dari Google Drive/Imgur/ImgBB).
-  Kalau mau upgrade ke upload file langsung dari galeri HP, bilang aja nanti dibuatkan endpoint upload-nya.
